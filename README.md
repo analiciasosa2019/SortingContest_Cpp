@@ -2,14 +2,14 @@
 A project that generates and then sorts a set of 1,000,000 numbers
 
 Contains the following programs: 
-###_generate.cpp_
+### _generate.cpp_
 o Purpose: generate a file called numbers.dat
 o Description: The numbers.dat file will have COUNT random numbers between MIN and MAX
 o Usage: generate COUNT MIN MAX
 o Example: generate 1000000 100000 999999
 o This program accepts command 3 command line arguments as shown above
 o If there are not 3 command line arguments, the program fails
-###_mysort.cpp_
+### _mysort.cpp_
 o Purpose: sort numbers from numbers.dat, output to stdout (standard out)
 o Description: Uses bubble sort or some other O(n-squared) function on an array of integers
 o It will accept up to 1 million numbers from the input file, but will run successfully with less
